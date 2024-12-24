@@ -224,6 +224,10 @@ button:active {
   text-decoration-skip-ink: none;
 }
 
+.block-about-company__container-logo {
+  display: flex;
+  justify-content: center;
+}
 
 /* for not 320 */
 .site-header__container {
@@ -250,3 +254,24 @@ button:active {
   display: none;
 }
 
+@media (min-width: 400px) and (max-width: 550.89px) {
+  .site-header__container {
+    justify-content: center;
+    column-gap: 15px;
+  }
+
+  .site-header__greystick {
+    margin-right: 5em;
+  }
+
+  .site-header__setting {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+  }
+
+  .block-about-company__container-logo {
+    display: flex;
+    justify-content: center;
+  }
+}
