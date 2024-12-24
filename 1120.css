@@ -85,6 +85,10 @@
     margin: 24px 0 24px 24px;
   }
 
+  .block-about-company__container-logo {
+    display: block;
+  }
+
   .block-about-company__logo {
     min-width: 531px;
     border-radius: 10px;
