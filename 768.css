@@ -1,4 +1,4 @@
-@media (max-width: 768px) and (min-width: 361px) {
+@media (max-width: 768px) and (min-width:  551px) {
 
 
   /* header */
@@ -53,6 +53,10 @@
 
   .block-about-company__readmore {
     margin: 24px 0 24px 10px;
+  }
+
+  .block-about-company__container-logo {
+    display: block;
   }
 
   .block-about-company__logo {
