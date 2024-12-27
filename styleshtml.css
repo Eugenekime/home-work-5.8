@@ -180,6 +180,12 @@ button:active {
   border: 2px solid rgba(184, 255, 236, 1);
 }
 
+.services-list__options:hover {
+  background-color: white;
+  border-radius: 2px;
+  border: 2px solid rgba(184, 255, 236, 1);
+}
+
 .services-list__options {
   min-height: 40px;
   display: flex;
